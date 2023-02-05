@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835549015004",
+    "firebase_url": "https://oleng-5a0d7-default-rtdb.firebaseio.com",
+    "project_id": "oleng-5a0d7",
+    "storage_bucket": "oleng-5a0d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835549015004:android:3416151601935a71127d19",
+        "android_client_info": {
+          "package_name": "com.example.olengindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835549015004-0kjemjvdv896faq4boqo0ga5dd4jtpaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.olengindonesia",
+            "certificate_hash": "44794f84a958f764fce99aa7834c2e61f76c24a1"
+          }
+        },
+        {
+          "client_id": "835549015004-bqbbok7evkbssshbevvdiubnmbee0e5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4fc5Zn9Fe8G-CEKM0mDrvYHCgI79STy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835549015004-bqbbok7evkbssshbevvdiubnmbee0e5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

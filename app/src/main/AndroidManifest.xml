@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.olengindonesia">
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_oleng"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_oleng_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Olengindonesia">
+        <activity android:name=".searchtalent"></activity>
+        <activity
+            android:name=".bottomnavigation"
+            android:exported="false" />
+        <activity
+            android:name=".auth.resetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".auth.registrasi"
+            android:exported="false" />
+        <activity
+            android:name=".auth.login"
+            android:exported="false" />
+        <activity
+            android:name=".boarding.boardingtwo"
+            android:exported="false" />
+        <activity
+            android:name=".boarding.boardingone"
+            android:exported="false" />
+        <activity
+            android:name=".boarding.splaschscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
